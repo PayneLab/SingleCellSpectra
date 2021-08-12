@@ -1,3 +1,6 @@
 data/2ng_Files/mzMLs/*
 data/02ng_Files/mzMLs/*
 data/Project_PXD011163/mzMLs/*   
+data/joined_psm_and_mzml/*
+data/parsed_mzml/*
+data/parsed_psm/*
