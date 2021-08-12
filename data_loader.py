@@ -47,7 +47,7 @@ def download_parsed_psm():
     #bulk
     mm_files["bulk_rep1"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_A-calib_PSMs.psmtsv"
     mm_files["bulk_rep2"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_B-calib_PSMs.psmtsv"
-    mm_files["bulk_rep3"] = "data/Project_PXD011163/Metamorpheus_output/AllPSMs.psmtsv"
+    mm_files["bulk_rep3"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_C-calib_PSMs.psmtsv"
 
     #2ng
     mm_files["2ng_rep1"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_J3_30umTB_2ngQC_60m_1-calib_PSMs.psmtsv"
