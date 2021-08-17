@@ -45,25 +45,25 @@ def download_parsed_psm():
 
     mm_files = {}
     #bulk
-    mm_files["bulk_rep1"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_A-calib_PSMs.psmtsv"
-    mm_files["bulk_rep2"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_B-calib_PSMs.psmtsv"
-    mm_files["bulk_rep3"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_C-calib_PSMs.psmtsv"
+    mm_files["bulk_rep1"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_A-calib_PSMs.psmtsv.gz"
+    mm_files["bulk_rep2"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_B-calib_PSMs.psmtsv.gz"
+    mm_files["bulk_rep3"] = "data/Project_PXD011163/Metamorpheus_output/OR11_20160122_PG_HeLa_CVB3_CT_C-calib_PSMs.psmtsv.gz"
 
     #2ng
-    mm_files["2ng_rep1"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_J3_30umTB_2ngQC_60m_1-calib_PSMs.psmtsv"
-    mm_files["2ng_rep2"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_J3_30umTB_2ngQC_60m_2-calib_PSMs.psmtsv"
-    mm_files["2ng_rep3"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_K13_30umTA_2ngQC_60m_1-calib_PSMs.psmtsv"
-    mm_files["2ng_rep4"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_K13_30umTA_2ngQC_60m_2-calib_PSMs.psmtsv"
-    mm_files["2ng_rep5"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_W17_30umTB_2ngQC_60m_1-calib_PSMs.psmtsv"
-    mm_files["2ng_rep6"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_W17_30umTB_2ngQC_60m_2-calib_PSMs.psmtsv"
+    mm_files["2ng_rep1"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_J3_30umTB_2ngQC_60m_1-calib_PSMs.psmtsv.gz"
+    mm_files["2ng_rep2"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_J3_30umTB_2ngQC_60m_2-calib_PSMs.psmtsv.gz"
+    mm_files["2ng_rep3"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_K13_30umTA_2ngQC_60m_1-calib_PSMs.psmtsv.gz"
+    mm_files["2ng_rep4"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_K13_30umTA_2ngQC_60m_2-calib_PSMs.psmtsv.gz"
+    mm_files["2ng_rep5"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_W17_30umTB_2ngQC_60m_1-calib_PSMs.psmtsv.gz"
+    mm_files["2ng_rep6"] = "data/2ng_Files_March_19_2021/Metamorpheus_output/Ex_Auto_W17_30umTB_2ngQC_60m_2-calib_PSMs.psmtsv.gz"
 
     #.2ng
-    mm_files["0.2ng_rep1"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_J3_30umTB_02ngQC_60m_1-calib_PSMs.psmtsv"
-    mm_files["0.2ng_rep2"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_J3_30umTB_02ngQC_60m_2-calib_PSMs.psmtsv"
-    mm_files["0.2ng_rep3"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_K13_30umTA_02ngQC_60m_1-calib_PSMs.psmtsv"
-    mm_files["0.2ng_rep4"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_K13_30umTA_02ngQC_60m_2-calib_PSMs.psmtsv"
-    mm_files["0.2ng_rep5"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_W17_30umTA_02ngQC_60m_3-calib_PSMs.psmtsv"
-    mm_files["0.2ng_rep6"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_W17_30umTA_02ngQC_60m_4-calib_PSMs.psmtsv"
+    mm_files["0.2ng_rep1"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_J3_30umTB_02ngQC_60m_1-calib_PSMs.psmtsv.gz"
+    mm_files["0.2ng_rep2"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_J3_30umTB_02ngQC_60m_2-calib_PSMs.psmtsv.gz"
+    mm_files["0.2ng_rep3"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_K13_30umTA_02ngQC_60m_1-calib_PSMs.psmtsv.gz"
+    mm_files["0.2ng_rep4"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_K13_30umTA_02ngQC_60m_2-calib_PSMs.psmtsv.gz"
+    mm_files["0.2ng_rep5"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_W17_30umTA_02ngQC_60m_3-calib_PSMs.psmtsv.gz"
+    mm_files["0.2ng_rep6"] = "data/02ng_Files_March_19_2021/Meatmorpheus_output/Ex_Auto_W17_30umTA_02ngQC_60m_4-calib_PSMs.psmtsv.gz"
     #
     #
     #
@@ -109,10 +109,6 @@ def load_psm(file_name):
     mm_files["0.2ng_rep5"] = "data/parsed_psm/0.2ng_rep5.csv"
     mm_files["0.2ng_rep6"] = "data/parsed_psm/0.2ng_rep6.csv"
 
-    mm_files["Bcell_rep1"] = "data/parsed_psm/Bcell_rep1.csv"
-    mm_files["Bcell_rep2"] = "data/parsed_psm/Bcell_rep2.csv"
-    mm_files["Tcell_rep1"] = "data/parsed_psm/Tcell_rep1.csv"
-    mm_files["Tcell_rep2"] = "data/parsed_psm/Tcell_rep2.csv"
 
     path_to_data_loader = os.path.abspath(os.path.dirname(__file__)) # This gets the absolute path to the location of the data_loader.py file
     complete_path_to_data = os.path.join(path_to_data_loader, mm_files.get(file_name))
@@ -130,23 +126,23 @@ def download_mzml():
 
 
     mzml = {}
-    mzml["bulk_rep1"] = "data/Project_PXD011163/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_A.mzML"
-    mzml["bulk_rep2"] = "data/Project_PXD011163/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_B.mzML"
-    mzml["bulk_rep3"] = "data/Project_PXD011163/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_C.mzML"
+    mzml["bulk_rep1"] = "data/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_A.mzML"
+    mzml["bulk_rep2"] = "data/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_B.mzML"
+    mzml["bulk_rep3"] = "data/mzMLs/OR11_20160122_PG_HeLa_CVB3_CT_C.mzML"
 
-    mzml["2ng_rep1"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_J3_30umTB_2ngQC_60m_1.mzML"
-    mzml["2ng_rep2"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_J3_30umTB_2ngQC_60m_2.mzML"
-    mzml["2ng_rep3"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_K13_30umTA_2ngQC_60m_1.mzML"
-    mzml["2ng_rep4"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_K13_30umTA_2ngQC_60m_2.mzML"
-    mzml["2ng_rep5"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_W17_30umTB_2ngQC_60m_1.mzML"
-    mzml["2ng_rep6"] = "data/2ng_Files_March_19_2021/mzMLs/Ex_Auto_W17_30umTB_2ngQC_60m_2.mzML"
+    mzml["2ng_rep1"] = "data/mzMLs/Ex_Auto_J3_30umTB_2ngQC_60m_1.mzML"
+    mzml["2ng_rep2"] = "data/mzMLs/Ex_Auto_J3_30umTB_2ngQC_60m_2.mzML"
+    mzml["2ng_rep3"] = "data/mzMLs/Ex_Auto_K13_30umTA_2ngQC_60m_1.mzML"
+    mzml["2ng_rep4"] = "data/mzMLs/Ex_Auto_K13_30umTA_2ngQC_60m_2.mzML"
+    mzml["2ng_rep5"] = "data/mzMLs/Ex_Auto_W17_30umTB_2ngQC_60m_1.mzML"
+    mzml["2ng_rep6"] = "data/mzMLs/Ex_Auto_W17_30umTB_2ngQC_60m_2.mzML"
     #
-    mzml["0.2ng_rep1"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_J3_30umTB_02ngQC_60m_1.mzML"
-    mzml["0.2ng_rep2"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_J3_30umTB_02ngQC_60m_2.mzML"
-    mzml["0.2ng_rep3"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_K13_30umTA_02ngQC_60m_1.mzML"
-    mzml["0.2ng_rep4"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_K13_30umTA_02ngQC_60m_2.mzML"
-    mzml["0.2ng_rep5"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_W17_30umTA_02ngQC_60m_3.mzML"
-    mzml["0.2ng_rep6"] = "data/02ng_Files_March_19_2021/mzMLs/Ex_Auto_W17_30umTA_02ngQC_60m_4.mzML"
+    mzml["0.2ng_rep1"] = "data/mzMLs/Ex_Auto_J3_30umTB_02ngQC_60m_1.mzML"
+    mzml["0.2ng_rep2"] = "data/mzMLs/Ex_Auto_J3_30umTB_02ngQC_60m_2.mzML"
+    mzml["0.2ng_rep3"] = "data/mzMLs/Ex_Auto_K13_30umTA_02ngQC_60m_1.mzML"
+    mzml["0.2ng_rep4"] = "data/mzMLs/Ex_Auto_K13_30umTA_02ngQC_60m_2.mzML"
+    mzml["0.2ng_rep5"] = "data/mzMLs/Ex_Auto_W17_30umTA_02ngQC_60m_3.mzML"
+    mzml["0.2ng_rep6"] = "data/mzMLs/Ex_Auto_W17_30umTA_02ngQC_60m_4.mzML"
 
 
     for file_name in list_of_file_names:
